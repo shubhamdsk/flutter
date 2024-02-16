@@ -3,10 +3,10 @@ import 'dart:io';
 void main(){
   print('Welcome');
 
-  // for output
+  // for printing output of code
   stdout.write("Enter Your Name : ");
 
-  // for input
+  // for taking input from user
   var name = stdin.readLineSync();
-  print("welcome $name");
+  stdout.write("Welcome $name");
 }
